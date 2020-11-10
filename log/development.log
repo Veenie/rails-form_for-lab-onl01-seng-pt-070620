@@ -255,3 +255,10 @@ Completed 200 OK in 286ms (Views: 233.6ms | ActiveRecord: 2.3ms)
 Started POST "/students" for 108.76.184.121 at 2020-11-10 22:23:36 +0000
 Processing by StudentsController#create as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"SYcO86Fq7y4Vr98LpRBiUlRLxXy24piE6+KlJHknbeaumoKwfi8F1SgxcFiXikNrD1kJ+TnhWatlGaQEs9RZtQ==", "student"=>{"first_name"=>"John", "last_name"=>"Smith"}, "commit"=>"Create Student"}
+Completed 500 Internal Server Error in 60125ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/students_controller.rb:12:in `create'
