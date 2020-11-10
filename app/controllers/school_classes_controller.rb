@@ -9,7 +9,7 @@ def show
   end
 
   def create
-    binding.pry
+    byebug
     @school_class = SchoolClass.new
     @school_class.title = params[:title]
     @school_class.room_number = params[:room_number]
