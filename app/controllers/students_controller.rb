@@ -8,7 +8,7 @@ def show
   end
 
   def create
-    byebug
+    #byebug
     @student = Student.new
     @student.first_name = params[:student][:first_name]
     @student.last_name = params[:student][:last_name]
